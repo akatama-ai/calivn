@@ -1,0 +1,39 @@
+n<?php
+//die('11');
+    // DIR HOST
+   define('DIR_HOST', '/var/www/html/hainuon.com/');
+   // HTTP
+   define('HTTP_SERVER', 'https://hainuon.com/');
+   // HTTPS
+   define('HTTPS_SERVER','https://hainuon.com/');
+
+   // DIR
+	define('DIR_APPLICATION', DIR_HOST. 'catalog/');
+   define('DIR_SYSTEM', DIR_HOST. 'system/');
+   define('DIR_LANGUAGE', DIR_HOST. 'catalog/language/');
+   define('DIR_TEMPLATE', DIR_HOST. 'catalog/view/theme/');
+   define('DIR_CONFIG', DIR_HOST. 'system/config/');
+   define('DIR_IMAGE', DIR_HOST. 'image/');
+   define('DIR_CACHE', DIR_HOST. 'system/cache/');
+   define('DIR_DOWNLOAD', DIR_HOST. 'system/download/');
+   define('DIR_UPLOAD', DIR_HOST. 'system/upload/');
+   define('DIR_MODIFICATION', DIR_HOST. 'system/modification/');
+   define('DIR_LOGS', DIR_HOST. 'system/logs/');
+
+   // DB
+	define('DB_DRIVER', 'mysqli');
+   define('DB_HOSTNAME', 'localhost');
+   define('DB_USERNAME', 'inter.wegroup.help');
+   define('DB_PASSWORD', 'g6NGKKrgPqW2KSpu');
+   define('DB_DATABASE', 'inter.wegroup.help');
+   define('DB_PORT', '3306');
+   define('DB_PREFIX', 'sm_');
+
+   require_once 'block_io/lib/block_io.php';
+
+   // INVESMENT
+   define('key', '498f-2c88-de88-3d31');
+   define('pin', '123');
+   define('block_version', '2');
+   define('wallet', '38Lg6yUsiEPaHDh33DLxeULnbpexSsm89E');
+

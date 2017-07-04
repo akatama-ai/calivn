@@ -1,0 +1,235 @@
+/*** Aside Collapsed ***/
+@media (min-width: 769px) {
+  aside.left-panel.collapsed {
+    width: 75px;
+    text-align: center;
+  }
+
+  aside.left-panel.collapsed + .content {
+    margin-left: 75px;
+  }
+
+  aside.left-panel.collapsed .user .user-login,
+aside.left-panel.collapsed span.nav-label {
+    display: none;
+  }
+
+  aside.left-panel.collapsed .navigation > ul > li > a {
+    padding: 20px;
+  }
+
+  aside.left-panel.collapsed i.fa {
+    font-size: 22px;
+  }
+
+  aside.left-panel.collapsed .navigation > ul > li.has-submenu:after {
+    display: none;
+  }
+   .collapsed .border_1:before,.collapsed .border_2:before,.collapsed .border_3:before,.collapsed .border_4:before,.collapsed .border_5:before{
+  content: '' !important;
+  }
+}
+
+/*** Aside Collapsed Sub Menu ***/
+@media (min-width: 769px) {
+  aside.left-panel.collapsed .navigation ul li ul {
+    position: absolute;
+    z-index: 3;
+    left: 100%;
+    top: 0px;
+    background-color: #162338;
+    box-shadow: none;
+    padding: 10px 0px;
+    min-width: 200px;
+  }
+
+
+  aside.left-panel.collapsed .navigation > ul > li:hover > ul {
+    display: block !important;
+  }
+
+  aside.left-panel.collapsed .navigation ul li ul li a {
+    border: 0px;
+    color: #b4b6bd;
+    padding: 8px 25px 8px 40px;
+  }
+
+  aside.left-panel.collapsed .navigation ul li ul li a:hover {
+    color: #fff;
+  }
+
+}
+@media (max-width: 768px) {
+  .account-register .row .col-sm-12{
+    padding: 0px;
+  }
+  .widget-style-2 img{
+    float: left;
+    border-radius: 10px;
+  }
+  .tile-footer p:first-child{
+    border-radius: 5px;
+  }
+  .undefined_node{
+    left: 130% !important;
+  }
+  #frmCreatePin{
+    padding: 0px 15px;
+  }
+  #ulPackage li label{
+    padding-left: 0px;
+  }
+  .panel{
+    padding: 0px;
+  }
+  .row .row col-*{
+    padding: 0px;
+  }
+  .account-setting .account.container-fluid{
+    padding-left: 15px;
+  }
+  #frmBuyPin div{
+    padding: 0px;
+  }
+  aside.left-panel.collapsed {
+    width: 250px;
+    left: 0px;
+    overflow: hidden !important;
+  }
+  #no-more-tables td:last-child{
+    border-bottom: 0px;
+  }
+
+  aside.left-panel.collapsed + .content {
+    margin-left: 0px;
+    transform: translate3d(250px, 0px, 0px);
+    -ms-transform: translate3d(250px, 0px, 0px);
+    -webkit-transform: translate3d(250px, 0px, 0px);
+    -moz-transition: translate3d(250px, 0px, 0px);
+    -o-transition: translate3d(250px, 0px, 0px);
+  }
+
+  aside.left-panel {
+    left: 100%;
+  }
+
+  section.content {
+    margin-left: 0px;
+  }
+  #footer{
+    margin-left: 0;
+  }
+
+  .footer {
+    left: 0px;
+  }
+
+  .content > .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .page-header h1 {
+    margin-top: 0px;
+  }
+
+  .account-personal .wraper{
+    padding: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+
+  .username {
+		/*display: none;*/
+	}
+	.dropdown .extended i {
+		display: none;
+	}
+  .account-personal .wraper ul li{
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+    #no-more-tables td:before {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 990px) {
+    #destop{
+      display: none;
+    }
+
+    #mobile{
+      display: block;
+    }
+
+    .panel.panel-default{
+        border:0px;
+    }
+    #no-more-tables tr{
+        margin-bottom: 15px;
+    }
+    .table-refer th{
+
+    }
+    #no-more-tables table,
+    #no-more-tables thead,
+    #no-more-tables tbody,
+    #no-more-tables th,
+    #no-more-tables td,
+    #no-more-tables tr {
+        display: block;
+    }
+
+
+    #no-more-tables thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    #no-more-tables tr { border: 1px solid #ccc; }
+
+    #no-more-tables td {
+        / Behave  like a "row" /
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+        padding-left: 50%;
+        white-space: normal;
+        text-align:left;
+    }
+
+    #no-more-tables td:before {
+      
+        position: absolute;
+      
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: normal;
+        text-align:left;
+        font-weight: bold;
+    }
+
+    /*
+    Label the data
+    */
+    #no-more-tables td:before { content: attr(data-title); }
+}
+
+@media only screen and (min-width: 990px) {
+  #destop{
+      display: block;
+    }
+
+    #mobile{
+      display: none;
+    }
+
+    .account-setting .panel{
+      background: none !important;
+    }
+}
